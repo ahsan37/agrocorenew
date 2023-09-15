@@ -9,7 +9,7 @@ const NavBar = () => {
                 </div>
                 <div className = 'navbarButtons'>
                 <a href="#ourWorkSection" className='navbarButton'>Our Work</a>
-                <a href="#powerBISection" className='navbarButton'>PowerBI</a>
+                <a href="#powerBISection" className='navbarButton'>Climate Heat Map</a>
                 <a href="#calculatorSection" className='navbarButton'>Carbon Calculator</a>
                 <a href="#joinUsSection" className='navbarButton'>Join Us</a>
                 <a href="#learnMoreSection" className='navbarButton navbarButtonSecondary'>Learn More</a>

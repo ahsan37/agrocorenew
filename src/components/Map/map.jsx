@@ -43,14 +43,19 @@ import React from "react";
 
 const Map = () => {
   return (
-    <iframe
-      title="map"
-      width="1140"
-      height="541.25"
-      src="https://msit.powerbi.com/reportEmbed?reportId=1f9305a4-3762-485b-af01-e4f076832c4c&autoAuth=true&ctid=72f988bf-86f1-41af-91ab-2d7cd011db47"
-      frameborder="0"
-      allowFullScreen="true"
-    ></iframe>
+    <div>
+      <h2>Climate Heat Map</h2>
+      {/* <div className="green-line"></div> */}
+
+      <iframe
+        title="map"
+        width="1140"
+        height="541.25"
+        src="https://msit.powerbi.com/reportEmbed?reportId=1f9305a4-3762-485b-af01-e4f076832c4c&autoAuth=true&ctid=72f988bf-86f1-41af-91ab-2d7cd011db47"
+        frameborder="0"
+        allowFullScreen="true"
+      ></iframe>
+    </div>
   );
 };
 
