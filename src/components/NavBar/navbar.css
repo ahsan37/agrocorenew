@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    /* background-color: linear-gradient(to bottom, black, grey); */
+    color: #009D64;
+}
+
+.navbarLogo{
+    font-family: 'Arial', sans-serif;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+
+.navbarButtons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+/* 
+.navbarButton {
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #009D64;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.navbarButton:hover{
+    background-color: #013421;
+} */
+
+.navbarButton, .navbarButtonSecondary {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    color: inherit; /* Inherit text color from parent */
+    font: inherit; /* Inherit font from parent */
+    cursor: pointer; /* Keep the pointer cursor */
+    padding: 0; /* Remove padding */
+    transition: border-bottom 0.3s ease; /* Smooth transition for the underline */
+    text-decoration: none; /* Remove any default underline */
+    border-bottom: 2px solid currentColor; /* Show underline on hover */
+
+}
+
+
+
+
+.navbarButton:hover, .navbarButtonSecondary:hover{
+    border-bottom: 2px solid #0c543a;
+    color: #0c543a;
+    background: none;
+}
+

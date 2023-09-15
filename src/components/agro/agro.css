@@ -1,0 +1,69 @@
+/* Agro.css */
+
+.agro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .small-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .picandleg{
+    display: flex;
+    justify-content: space-between;
+  }
+  .legend{
+    /* padding-right: 40px; */
+    /* flex:0.5; */
+    padding: 10px;
+    background-color:#ffff ;
+    border: 2px solid green;
+    text-align: left;
+    margin-right: 80px;
+    margin-top:80px;
+    height: 160px;
+  }
+    h4{
+        margin-top: -3px;
+    }
+  
+  .small-images img {
+    padding:10px;
+    width: 275px; /* Adjust the width as needed */
+    height: 220px; /* Adjust the height as needed */
+  }
+  
+  .big-image img {
+    width: 600px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+  .title {
+    margin-bottom: 20px;
+    padding: 20px 20%;
+
+  }
+  
+  .title h2 {
+    color: #333;
+    font-size: 30px;
+  }
+  
+  .green-line {
+    width: 500px;
+    height: 3px;
+    background-color: green;
+    margin: 0 auto;
+  }
+  
+  .plegend{
+    font-size: 10px;
+  }
